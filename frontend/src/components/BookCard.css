@@ -1,0 +1,48 @@
+.book-card {
+    border: 3px solid white;
+    border-left: none;
+    border-right: none;
+    padding: 10px 75px 10px 75px;
+    margin: 30px;
+    background-color: #54cc70;
+}
+
+.input-style {
+    padding: 6px;
+    width: 150px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.button-style {
+    margin-left: 7px;
+    width: 60px;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid;
+    cursor:pointer;
+}
+
+.button-style:hover {
+    background-color: #54cc70;
+    color: white;
+}
+
+.card-button {
+    width: 85px;
+    padding: 3px 0px 3px 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+
+.card-button:hover {
+    background-color: #23303d;
+    color: white;
+}
+
+.p-class {
+    text-transform: uppercase;
+}

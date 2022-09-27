@@ -19,7 +19,7 @@ public class BookController {
 
 
     @GetMapping("/{isbn}")
-    public Book getBookByIsbn(@PathVariable String isbn){
+    public Book getBookByIsbn(@PathVariable String isbn) {
         return bookService.getBookByIsbn(isbn);
     }
 
