@@ -17,8 +17,8 @@ export default function AddBook(props: AddBookProps) {
 
     return (
         <div>
-            <input onChange={onSthChanged} value={sth} />
-            <button onClick={() => props.onAddBook(sth)} >Add</button>
+            <input className={"input-style"} onChange={onSthChanged} value={sth} />
+            <button className={"button-style"} onClick={() => props.onAddBook(sth)} >Add</button>
         </div>
 
     )
