@@ -14,7 +14,7 @@ export default function BookCard(props: BookCardProps ) {
 
             <p> {props.book.title} </p>
             <p> {props.book.author} </p>
-            <p> {props.book.isbn} </p>
+            <p>  {props.book.isbn} </p>
 
         </div>
 
